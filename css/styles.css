@@ -1,8 +1,9 @@
 @font-face {
     font-family: 'Lora Regular';
-    src: url("static/Lora-Regular.ttf")
+    src: url("/static/Lora-Regular.ttf") format("truetype");
 }
-h1 {
-    font-family: 'Lora Regular';
+
+h1{
+    font-family: 'Lora Regular', serif;
     font-weight: 400;
 }
