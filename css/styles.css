@@ -14,7 +14,15 @@ body {
     font-weight: 200;
 }
 .nav-bar {
-    list-style: none;
     display: flex;
-    justify-content: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    margin-bottom: 15px;
+    font-size: 18px;
 }
