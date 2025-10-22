@@ -2,12 +2,34 @@
     font-family: 'Lora Regular';
     src: url("/static/Lora-Regular.ttf") format("truetype");
 }
-
 body {
     font-family: 'Lora Regular', serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.header-bar {
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px 32px;
+    width: 100%;
+    height: 95px;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #222222;
+    box-shadow: 0 50px 50px rgba(11, 129, 0, 0.2);
+}
+.logo {
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    top: 15px;
+    left: 30%;
+
 }
 .firstblockoftext{
     font-family: 'Lora Regular', serif;
