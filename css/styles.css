@@ -3,7 +3,7 @@
     src: url("/static/Lora-Regular.ttf") format("truetype");
 }
 
-body {
+.firstblockoftext{
     font-family: 'Lora Regular', serif;
     font-weight: 200;
 }
