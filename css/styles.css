@@ -3,7 +3,18 @@
     src: url("/static/Lora-Regular.ttf") format("truetype");
 }
 
+body {
+    font-family: 'Lora Regular', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .firstblockoftext{
     font-family: 'Lora Regular', serif;
     font-weight: 200;
+}
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
