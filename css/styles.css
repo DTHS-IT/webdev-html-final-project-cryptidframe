@@ -56,3 +56,24 @@ a {
     text-decoration: none;
     color: black;
 }
+.welcomeheader{
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+    font-size: 45px;
+}
+.welcomeheader:hover{
+    cursor: pointer;
+    color: rgb(28, 135, 9);
+}
+.firstext{
+    position: absolute;
+    top: 290px;
+    left: 450px;
+    line-height: 1.6;
+}
+.aboutustext2:hover{
+    cursor: pointer;
+    color: rgb(28, 135, 9);
+
+}
