@@ -89,3 +89,7 @@ a {
     font-size: 45px;
     text-align: right;
 }
+.aboutheader:hover{
+    cursor: pointer;
+    color: rgb(22, 92, 10);
+}
