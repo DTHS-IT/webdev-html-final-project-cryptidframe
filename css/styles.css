@@ -303,3 +303,11 @@ a {
     font-size: 16px;
     font-weight: 200;
 }
+.aibot{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    width: 25%;
+    height: 80%;
+    min-height: 500px;
+}
