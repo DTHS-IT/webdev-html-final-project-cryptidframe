@@ -22,7 +22,7 @@ body {
     top: 0;
     left: 0;
     background: black;
-    box-shadow: 0 50px 50px rgba(11, 129, 0, 0.2);
+    box-shadow: 0 30px 30px rgba(11, 129, 0, 0.2);
 }
 .logo {
     height: 65px;
