@@ -318,3 +318,17 @@ a {
     width: 250px;
     height: auto;
 }
+.cat{
+    position: absolute;
+    top: 700px;
+    left: 1020px;
+    height: auto;
+    width: 150px;
+}
+.textundercat{
+    position: absolute;
+    top: 830px;
+    left: 1020px;
+    font-size: 16px;
+    font-weight: 200;
+}
