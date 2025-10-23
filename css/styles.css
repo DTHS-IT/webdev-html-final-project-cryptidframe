@@ -139,5 +139,60 @@ a {
     font-weight: 200;
 }
 .aboutustext{
-    
+    color: white;
+    font-family: 'Lora Regular', serif;
+}
+.about{
+    position: absolute;
+    top: 480px;
+    left: 10px;
+}
+.aboutuspagetext{
+    position: absolute;
+    top: 550px;
+    left: 10px;
+    line-height: 1.6;
+    margin-right: 12px;
+}
+.doorimage{
+    position: absolute;
+    top: 700px;
+    left: 10px;
+    height: auto;
+    width: 500px;
+}
+.textunderimageonaboutuspage{
+    position: absolute;
+    top: 960px;
+    left: 10px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.backrooms{
+    position: absolute;
+    top: 700px;
+    left: 800px;
+    height: auto;
+    width: 500px;
+}
+.explainbackrooms{
+    position: absolute;
+    top: 960px;
+    left: 800px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.backroomsmonster{
+    position: absolute;
+    top: 1050px;
+    left: 430px;
+    height: auto;
+    width: 500px;
+}
+.monstertext{
+    position: absolute;
+    top: 1310px;
+    left: 435px;
+    font-size: 16px;
+    font-weight: 200;
 }
