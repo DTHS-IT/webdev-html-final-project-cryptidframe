@@ -131,3 +131,10 @@ a {
     width: 450px;
     border: 2px solid rgb(255, 255, 255);
 }
+.newstext{
+    position: absolute;
+    top: 757px;
+    left: 55px;
+    font-size: 16px;
+    font-weight: 200;
+}
