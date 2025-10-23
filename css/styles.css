@@ -84,10 +84,11 @@ a {
 }
 .aboutheader{
     position: absolute;
-    top: 500px;
+    top: 530px;
     left: 1165px;
     font-size: 45px;
     text-align: right;
+    font-weight: 600;
 }
 .aboutheader:hover{
     cursor: pointer;
