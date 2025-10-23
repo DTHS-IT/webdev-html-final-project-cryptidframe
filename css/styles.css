@@ -76,3 +76,16 @@ a {
     cursor: pointer;
     color: rgb(22, 92, 10);
 }
+.abouttext{
+    position: absolute;
+    top: 600px;
+    left: 920px;
+    line-height: 1.6;
+}
+.aboutheader{
+    position: absolute;
+    top: 500px;
+    left: 1165px;
+    font-size: 45px;
+    text-align: right;
+}
