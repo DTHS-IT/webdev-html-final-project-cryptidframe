@@ -116,3 +116,18 @@ a {
 .gamesheader:hover{
     color: rgb(22, 92, 10);
 }
+.newestnews{
+    position: absolute;
+    top: 480px;
+    left: 50px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.stairs{
+    position: absolute;
+    top: 520px;
+    left: 50px;
+    height: auto;
+    width: 450px;
+    border: 2px solid rgb(255, 255, 255);
+}
