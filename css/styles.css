@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #222222;
 }
 .header-bar {
     text-align:center;
@@ -20,8 +21,8 @@ body {
     position: relative;
     top: 0;
     left: 0;
-    background: #222222;
-    box-shadow: 0 50px 50px rgba(11, 129, 0, 0.2);
+    background: black;
+    box-shadow: 0 30px 30px rgba(11, 129, 0, 0.2);
 }
 .logo {
     height: 65px;
@@ -35,6 +36,7 @@ body {
     font-family: 'Lora Regular', serif;
     text-align: right;
     font-weight: 200;
+    color: white;
 }
 .nav-bar {
     display: flex;
@@ -54,13 +56,14 @@ li {
 }
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .welcomeheader{
     position: absolute;
     top: 150px;
     left: 1000px;
     font-size: 45px;
+    margin-right: 12px;
 }
 .welcomeheader:hover{
     cursor: pointer;
@@ -71,6 +74,7 @@ a {
     top: 290px;
     left: 450px;
     line-height: 1.6;
+    margin-right: 12px;
 }
 .aboutustext2:hover{
     cursor: pointer;
@@ -79,17 +83,51 @@ a {
 .abouttext{
     position: absolute;
     top: 600px;
-    left: 920px;
+    left: 1116px;
     line-height: 1.6;
+    margin-right: 12px;
 }
 .aboutheader{
     position: absolute;
-    top: 500px;
-    left: 1165px;
+    top: 530px;
+    left: 1160px;
     font-size: 45px;
     text-align: right;
+    font-weight: 600;
 }
 .aboutheader:hover{
     cursor: pointer;
     color: rgb(22, 92, 10);
+}
+.games{
+    position: absolute;
+    top: 900px;
+    left: 10px;
+    line-height: 1.6;
+    text-align: left;
+}
+.gamesheader{
+    position: absolute;
+    top: 820px;
+    left: 10px;
+    text-align: left;
+    font-weight: 600;
+}
+.gamesheader:hover{
+    color: rgb(22, 92, 10);
+}
+.newestnews{
+    position: absolute;
+    top: 480px;
+    left: 50px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.stairs{
+    position: absolute;
+    top: 520px;
+    left: 50px;
+    height: auto;
+    width: 450px;
+    border: 2px solid rgb(255, 255, 255);
 }
