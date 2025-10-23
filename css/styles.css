@@ -81,19 +81,36 @@ a {
 .abouttext{
     position: absolute;
     top: 600px;
-    left: 920px;
+    left: 1116px;
     line-height: 1.6;
     margin-right: 12px;
 }
 .aboutheader{
     position: absolute;
     top: 530px;
-    left: 1165px;
+    left: 1160px;
     font-size: 45px;
     text-align: right;
     font-weight: 600;
 }
 .aboutheader:hover{
     cursor: pointer;
+    color: rgb(22, 92, 10);
+}
+.games{
+    position: absolute;
+    top: 900px;
+    left: 10px;
+    line-height: 1.6;
+    text-align: left;
+}
+.gamesheader{
+    position: absolute;
+    top: 820px;
+    left: 10px;
+    text-align: left;
+    font-weight: 600;
+}
+.gamesheader:hover{
     color: rgb(22, 92, 10);
 }
