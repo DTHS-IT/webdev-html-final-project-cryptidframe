@@ -311,3 +311,10 @@ a {
     height: 80%;
     min-height: 500px;
 }
+.loading{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    width: 250px;
+    height: auto;
+}
