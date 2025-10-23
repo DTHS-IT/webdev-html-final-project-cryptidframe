@@ -160,6 +160,7 @@ a {
     left: 10px;
     height: auto;
     width: 500px;
+    border: 2px solid rgb(0, 0, 0);
 }
 .textunderimageonaboutuspage{
     position: absolute;
@@ -174,6 +175,7 @@ a {
     left: 800px;
     height: auto;
     width: 500px;
+    border: 2px solid rgb(255, 255, 255);
 }
 .explainbackrooms{
     position: absolute;
@@ -188,6 +190,7 @@ a {
     left: 430px;
     height: auto;
     width: 500px;
+    border: 2px solid rgb(255, 255, 255);
 }
 .monstertext{
     position: absolute;
