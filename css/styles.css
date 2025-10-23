@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Lora Regular';
+    src: url("/static/Lora-Regular.ttf") format("truetype");
+}
+body {
+    font-family: 'Lora Regular', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-bar {
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px 32px;
+    width: 100%;
+    height: 95px;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #222222;
+    box-shadow: 0 50px 50px rgba(11, 129, 0, 0.2);
+}
+.logo {
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    top: 15px;
+    left: 30%;
+
+}
+.firstblockoftext{
+    font-family: 'Lora Regular', serif;
+    text-align: right;
+    font-weight: 200;
+}
+.nav-bar {
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 12px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.welcomeheader{
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+    font-size: 45px;
+}
+.welcomeheader:hover{
+    cursor: pointer;
+    color: rgb(22, 92, 10);
+}
+.firstext{
+    position: absolute;
+    top: 290px;
+    left: 450px;
+    line-height: 1.6;
+}
+.aboutustext2:hover{
+    cursor: pointer;
+    color: rgb(22, 92, 10);
+}
