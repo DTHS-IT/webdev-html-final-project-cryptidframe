@@ -61,6 +61,7 @@ a {
     top: 150px;
     left: 1000px;
     font-size: 45px;
+    margin-right: 12px;
 }
 .welcomeheader:hover{
     cursor: pointer;
@@ -71,6 +72,7 @@ a {
     top: 290px;
     left: 450px;
     line-height: 1.6;
+    margin-right: 12px;
 }
 .aboutustext2:hover{
     cursor: pointer;
@@ -81,6 +83,7 @@ a {
     top: 600px;
     left: 920px;
     line-height: 1.6;
+    margin-right: 12px;
 }
 .aboutheader{
     position: absolute;
