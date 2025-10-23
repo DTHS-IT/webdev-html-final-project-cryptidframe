@@ -160,6 +160,7 @@ a {
     left: 10px;
     height: auto;
     width: 500px;
+    border: 2px solid rgb(0, 0, 0);
 }
 .textunderimageonaboutuspage{
     position: absolute;
@@ -174,6 +175,7 @@ a {
     left: 800px;
     height: auto;
     width: 500px;
+    border: 2px solid rgb(255, 255, 255);
 }
 .explainbackrooms{
     position: absolute;
@@ -188,11 +190,43 @@ a {
     left: 430px;
     height: auto;
     width: 500px;
+    border: 2px solid rgb(255, 255, 255);
 }
 .monstertext{
     position: absolute;
     top: 1310px;
     left: 435px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.whatwedotext{
+    font-family: 'Lora Regular', serif;
+    color:white
+}
+.whatwedoheader{
+    position: absolute;
+    top: 460px;
+    left: auto;
+}
+.whatwedopagetext{
+    position: absolute;
+    top: 530px;
+    left: auto;
+    line-height: 1.6;
+    margin-right: 12px;
+}
+.basemap{
+    position: absolute;
+    top: 120px;
+    left: 950px;
+    height: auto;
+    width: 300px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.test1text{
+    position: absolute;
+    top: 440px;
+    left: 950px;
     font-size: 16px;
     font-weight: 200;
 }
