@@ -230,3 +230,15 @@ a {
     font-size: 16px;
     font-weight: 200;
 }
+.earlydevelopmentheader{
+    position: absolute;
+    top: 740px;
+    left: auto;
+}
+.earlydevelopmenttext{
+    position: absolute;
+    top: 810px;
+    left: auto;
+    line-height: 1.6;
+    margin-right: 12px;
+}
