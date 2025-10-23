@@ -64,7 +64,7 @@ a {
 }
 .welcomeheader:hover{
     cursor: pointer;
-    color: rgb(28, 135, 9);
+    color: rgb(22, 92, 10);
 }
 .firstext{
     position: absolute;
@@ -74,6 +74,5 @@ a {
 }
 .aboutustext2:hover{
     cursor: pointer;
-    color: rgb(28, 135, 9);
-
+    color: rgb(22, 92, 10);
 }
