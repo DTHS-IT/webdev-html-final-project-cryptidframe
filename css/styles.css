@@ -230,3 +230,99 @@ a {
     font-size: 16px;
     font-weight: 200;
 }
+.earlydevelopmentheader{
+    position: absolute;
+    top: 740px;
+    left: auto;
+}
+.earlydevelopmenttext{
+    position: absolute;
+    top: 810px;
+    left: auto;
+    line-height: 1.6;
+    margin-right: 12px;
+}
+.testmap2{
+    position: absolute;
+    top: 900px;
+    left: 90px;
+    height: auto;
+    width: 300px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.image1earlydevelopmenttext{
+    position: absolute;
+    top: 1235px;
+    left: 90px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.Arrow1{
+    position: absolute;
+    top: 1030px;
+    left: 440px;
+    font-size: 49px;
+    font-weight: 200;
+    color: white;
+}
+.testmap3{
+    position: absolute;
+    top: 950px;
+    left: 510px;
+    height: auto;
+    width: 350px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.image2earlydevelopmenttext{
+    position: absolute;
+    top: 1200px;
+    left: 510px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.Arrow2{
+    position: absolute;
+    top: 1030px;
+    left: 910px;
+    font-size: 49px;
+    font-weight: 200;
+    color: white;
+}
+.testmap4{
+    position: absolute;
+    top: 950px;
+    left: 985px;
+    height: auto;
+    width: 350px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.image3earlydevelopmenttext{
+    position: absolute;
+    top: 1200px;
+    left: 985px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.aibot{
+    position: absolute;
+    top: 120px;
+    left: 500px;
+    width: 25%;
+    height: 75%;
+    min-height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+.cat{
+    position: absolute;
+    top: 700px;
+    left: 1020px;
+    height: auto;
+    width: 150px;
+}
+.textundercat{
+    position: absolute;
+    top: 830px;
+    left: 1020px;
+    font-size: 16px;
+    font-weight: 200;
+}
