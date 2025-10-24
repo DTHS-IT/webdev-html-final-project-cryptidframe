@@ -471,6 +471,20 @@ a {
     font-size: 16px;
     font-weight: 200;
 }
+.ourgameheader2{
+    position: absolute;
+    top: 1140px;
+    left: 800px;
+    text-align: center;
+    font-weight: 600;
+}
+.ourgametext4{
+    position: absolute;
+    top: 1210px;
+    left: 800px;
+    line-height: 1.6;
+    margin-right: 12px;
+}
 
 .indexanim {
     opacity: 0;
