@@ -139,5 +139,190 @@ a {
     font-weight: 200;
 }
 .aboutustext{
-    
+    color: white;
+    font-family: 'Lora Regular', serif;
+}
+.about{
+    position: absolute;
+    top: 480px;
+    left: 10px;
+}
+.aboutuspagetext{
+    position: absolute;
+    top: 550px;
+    left: 10px;
+    line-height: 1.6;
+    margin-right: 12px;
+}
+.doorimage{
+    position: absolute;
+    top: 700px;
+    left: 10px;
+    height: auto;
+    width: 500px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.textunderimageonaboutuspage{
+    position: absolute;
+    top: 960px;
+    left: 10px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.backrooms{
+    position: absolute;
+    top: 700px;
+    left: 800px;
+    height: auto;
+    width: 500px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.explainbackrooms{
+    position: absolute;
+    top: 960px;
+    left: 800px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.backroomsmonster{
+    position: absolute;
+    top: 1050px;
+    left: 430px;
+    height: auto;
+    width: 500px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.monstertext{
+    position: absolute;
+    top: 1310px;
+    left: 435px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.whatwedotext{
+    font-family: 'Lora Regular', serif;
+    color:white
+}
+.whatwedoheader{
+    position: absolute;
+    top: 460px;
+    left: auto;
+}
+.whatwedopagetext{
+    position: absolute;
+    top: 530px;
+    left: auto;
+    line-height: 1.6;
+    margin-right: 12px;
+}
+.basemap{
+    position: absolute;
+    top: 120px;
+    left: 950px;
+    height: auto;
+    width: 300px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.test1text{
+    position: absolute;
+    top: 440px;
+    left: 950px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.earlydevelopmentheader{
+    position: absolute;
+    top: 740px;
+    left: auto;
+}
+.earlydevelopmenttext{
+    position: absolute;
+    top: 810px;
+    left: auto;
+    line-height: 1.6;
+    margin-right: 12px;
+}
+.testmap2{
+    position: absolute;
+    top: 900px;
+    left: 90px;
+    height: auto;
+    width: 300px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.image1earlydevelopmenttext{
+    position: absolute;
+    top: 1235px;
+    left: 90px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.Arrow1{
+    position: absolute;
+    top: 1030px;
+    left: 440px;
+    font-size: 49px;
+    font-weight: 200;
+    color: white;
+}
+.testmap3{
+    position: absolute;
+    top: 950px;
+    left: 510px;
+    height: auto;
+    width: 350px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.image2earlydevelopmenttext{
+    position: absolute;
+    top: 1200px;
+    left: 510px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.Arrow2{
+    position: absolute;
+    top: 1030px;
+    left: 910px;
+    font-size: 49px;
+    font-weight: 200;
+    color: white;
+}
+.testmap4{
+    position: absolute;
+    top: 950px;
+    left: 985px;
+    height: auto;
+    width: 350px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.image3earlydevelopmenttext{
+    position: absolute;
+    top: 1200px;
+    left: 985px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.aibot{
+    position: absolute;
+    top: 120px;
+    left: 500px;
+    width: 25%;
+    height: 75%;
+    min-height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+.cat{
+    position: absolute;
+    top: 700px;
+    left: 1020px;
+    height: auto;
+    width: 150px;
+}
+.textundercat{
+    position: absolute;
+    top: 830px;
+    left: 1020px;
+    font-size: 16px;
+    font-weight: 200;
 }
