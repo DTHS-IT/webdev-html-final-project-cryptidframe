@@ -326,3 +326,65 @@ a {
     font-size: 16px;
     font-weight: 200;
 }
+.websitecontributorstext{
+    font-family: 'Lora Regular', serif;
+    color:white
+}
+.websitecontributorheader{
+    position: absolute;
+    top: 450px;
+    left: auto;
+}
+.websitecontributorstextunderhenader{
+    position: absolute;
+    top: 515px;
+    left: auto;
+    line-height: 1.6;
+    margin-right: 12px;
+}
+.contributorslist{
+    position: absolute;
+    top: 700px;
+    left: auto;
+    line-height: 1.6;
+    margin-right: 12px;
+}
+.contributorslistheader{
+    position: absolute;
+    top: 620px;
+    left: auto;
+}
+.image1websitecontributors{
+    position: absolute;
+    top: 400px;
+    left: 800px;
+    height: auto;
+    width: 500px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.image2websitecontributors{
+    position: absolute;
+    top: 700px;
+    left: 800px;
+    height: 300px;
+    width: 500px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.thankyoutext{
+    position: absolute;
+    top: 970px;
+    left: auto;
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    font-family: 'Lora Regular', serif;
+}
+.textunderimageswebsitecontributors{
+    position: absolute;
+    top: 667px;
+    left: 870px;
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    font-family: 'Lora Regular', serif;
+}
