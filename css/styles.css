@@ -326,3 +326,31 @@ a {
     font-size: 16px;
     font-weight: 200;
 }
+
+.indexanim {
+    opacity: 0;
+    transform: translateX(300px);
+    animation: moveleft 1.5s ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveleft {
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.indexanim2 {
+    opacity: 0;
+    transform: translateX(-300px);
+    animation: moveright 1.5s ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveright {
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
