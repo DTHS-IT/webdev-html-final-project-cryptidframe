@@ -305,18 +305,12 @@ a {
 }
 .aibot{
     position: absolute;
-    top: 150px;
+    top: 120px;
     left: 500px;
     width: 25%;
-    height: 80%;
+    height: 75%;
     min-height: 500px;
-}
-.loading{
-    position: absolute;
-    top: 200px;
-    left: 600px;
-    width: 250px;
-    height: auto;
+    background-color: rgb(255, 255, 255);
 }
 .cat{
     position: absolute;
