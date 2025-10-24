@@ -201,7 +201,8 @@ a {
 }
 .whatwedotext{
     font-family: 'Lora Regular', serif;
-    color:white
+    color:white;
+    margin-left: 12px;
 }
 .whatwedoheader{
     position: absolute;
@@ -328,7 +329,8 @@ a {
 }
 .websitecontributorstext{
     font-family: 'Lora Regular', serif;
-    color:white
+    color:white;
+    margin-left: 12px;
 }
 .websitecontributorheader{
     position: absolute;
@@ -340,7 +342,6 @@ a {
     top: 515px;
     left: auto;
     line-height: 1.6;
-    margin-right: 12px;
 }
 .contributorslist{
     position: absolute;
@@ -387,4 +388,54 @@ a {
     font-weight: 200;
     color: white;
     font-family: 'Lora Regular', serif;
+}
+.ourgametext{
+    font-family: 'Lora Regular', serif;
+    color:white;
+    margin-left: 12px;
+}
+.ourgameheader{
+    position: absolute;
+    top: 450px;
+    left: auto;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 600;
+}
+.ourgametext1{
+    position: absolute;
+    top: 550px;
+    left: auto;
+    line-height: 1.6;
+}
+.unrealengineimage{
+    position: absolute;
+    top: 550px;
+    left: 800px;
+    height: auto;
+    width: 500px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.draganddrop{
+    position: absolute;
+    top: 900px;
+    left: 800px;
+    height: auto;
+    width: 500px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.pool{
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    height: auto;
+    width: 500px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.ourgametext2{
+    position: absolute;
+    top: 1000px;
+    left: 155px;
+    font-size: 16px;
+    font-weight: 200;
 }
