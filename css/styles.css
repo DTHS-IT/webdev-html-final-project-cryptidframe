@@ -695,3 +695,7 @@ footer .nav-links {
     transform: rotate(270deg);
         z-index: 1000;
 }
+#main{
+    overflow: auto;
+    padding-bottom: 300px;
+}
