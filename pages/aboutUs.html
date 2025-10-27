@@ -7,13 +7,17 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="icon" type="x-icon" href="/images/favicon.ico">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    
-
-<script>
-$(function(){
-  $("#nav-placeholder").load("nav.html");
-});
-</script>
+    <script>
+        $(function(){
+        $("#nav-bar").load("/universalHTML/navigation.html");
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function(){
+        $("#footer").load("/universalHTML/footer.html");
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -21,22 +25,20 @@ $(function(){
             <div class="logo-container">
                 <img class="logo" src="/images/cryptidframelogo.png">
             </div>
-        </div>
-        <div class="nav-container">
-            <div class="nav-bar">
-                <nav>
-                    <ul>
-                        <li><a class="nav-links" href="/index.html">Home</a></li>
-                        <li><a class="nav-links" href="aboutUs.html">About Us</a></li>
-                        <li><a class="nav-links" href="whatWeDo.html">What We Do</a></li>
-                        <li><a class="nav-links" href="ourGames.html" >Our Games</a></li>
-                        <li><a class="nav-links" href="websiteContributors.html">Website Contributors</a></li>
-                        <li><a class="nav-links" href="download.html">Download</a></li>
-                    </ul>
-                </nav>
+            <div class="company">
+                <img class="company-name" src="/images/cryptidframe.png">
             </div>
         </div>
     </header>
+    <div class="nav-container">
+        <img src="/images/nav_border1.png" class="nav-panel">
+        <button class="nav-panel-button">Navigation</button>
+        <div id="nav-bar" class="nav-bar">
+
+        </div>
+        <script src="/js/nav.js"></script>
+    <!--new-->
+    </div>
 <div class="aboutustext">
             <h1 class="about opac">About Us</h1>
             <p class="aboutuspagetext opac">CryptidFrame is a small indie game development company that focuses on creating immersive and engaging gaming experiences. Founded by a group of passionate developers and designers, our mission is to bring unique and captivating games to players around the world. We believe in the power of storytelling and innovation, and we strive to push the boundaries of what games can be. Our team is dedicated to crafting high-quality games that not only entertain but also inspire and connect with our audience on a deeper level. Join us on our journey as we explore new worlds and create unforgettable adventures.</p>
@@ -49,5 +51,8 @@ $(function(){
             <img class="backrooms anim" src="/images/Backrooms/Backroomshorrorimage.jpg" alt="Oh no not the backrooms">
             <img class="backroomsmonster opac" src="/images/Backrooms/BackroomsMonster.jpg" alt="No monster pic">
         </div>
+    <div id="footer" class="footer-container">
+
+    </div>
 </body>
 </html>
