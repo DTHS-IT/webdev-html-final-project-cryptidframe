@@ -7,13 +7,17 @@
     <link rel="icon" type="x-icon" href="/images/favicon.ico">
     <title>CryptidFrame | Q&A</title>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    
-
-<script>
-$(function(){
-  $("#nav-placeholder").load("nav.html");
-});
-</script>
+    <script>
+        $(function(){
+        $("#nav-bar").load("/universalHTML/navigation.html");
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function(){
+        $("#footer").load("/universalHTML/footer.html");
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -21,28 +25,27 @@ $(function(){
             <div class="logo-container">
                 <img class="logo" src="/images/cryptidframelogo.png">
             </div>
-        </div>
-        <div class="nav-container">
-            <div class="nav-bar">
-                <nav>
-                    <ul>
-                        <li><a class="nav-links" href="/index.html">Home</a></li>
-                        <li><a class="nav-links" href="aboutUs.html">About Us</a></li>
-                        <li><a class="nav-links" href="whatWeDo.html">What We Do</a></li>
-                        <li><a class="nav-links" href="ourGames.html" >Our Games</a></li>
-                        <li><a class="nav-links" href="websiteContributors.html">Website Contributors</a></li>
-                        <li><a class="nav-links" href="download.html">Download</a></li>
-                    </ul>
-                </nav>
+            <div class="company">
+                <img class="company-name" src="/images/cryptidframe.png">
             </div>
         </div>
     </header>
+    <div class="nav-container">
+        <img src="/images/nav_border1.png" class="nav-panel">
+        <button class="nav-panel-button">Navigation</button>
+        <div id="nav-bar" class="nav-bar">
 
+        </div>
+        <script src="/js/nav.js"></script>
+    <!--new-->
+    </div>
 <iframe
     src="https://app.thinkstack.ai/bot/index.html?chatbot_id=68fa3e2a16918876383de6a5&type=inline"
     frameborder="0"
     class="aibot">
 </iframe>
+    <div id="footer" class="footer-container">
 
+    </div>
 </body>
 </html>

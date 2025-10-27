@@ -8,13 +8,17 @@
     <link rel="icon" type="x-icon" href="images/favicon.ico">
     <!--git config pull .rebase false or git config pull.rebase false #merge if pusing errors occur-->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    
-
-<script>
-$(function(){
-  $("#nav-placeholder").load("nav.html");
-});
-</script>
+    <script>
+        $(function(){
+        $("#nav-bar").load("universalHTML/navigation.html");
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function(){
+        $("#footer").load("/universalHTML/footer.html");
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -22,23 +26,19 @@ $(function(){
             <div class="logo-container">
                 <img class="logo" src="images/cryptidframelogo.png">
             </div>
-        </div>
-        <div class="nav-container">
-            <div class="nav-bar">
-                <nav>
-                    <ul>
-                        <li><a class="nav-links" href="pages/aboutUs.html">About Us</a></li>
-                        <li><a class="nav-links" href="pages/whatWeDo.html">What We Do</a></li>
-                        <li><a class="nav-links" href="pages/ourGames.html" >Our Games</a></li>
-                        <li><a class="nav-links" href="pages/websiteContributors.html">Website Contributors</a></li>
-                        <li><a class="nav-links" href="pages/download.html">Download</a></li>
-                        <li><a class="nav-links" href="pages/qna.html">Q & A</a></li>
-                    </ul>
-                </nav>
+            <div class="company">
+                <img class="company-name" src="images/cryptidframe.png">
             </div>
         </div>
-</div>
     </header>
+    <div class="nav-container">
+        <img src="images/nav_border1.png" class="nav-panel">
+        <button class="nav-panel-button">Navigation</button>
+        <div id="nav-bar" class="nav-bar">
+
+        </div>
+        <script src="js/nav.js"></script>
+    <!--new-->
     <main>
         <div class="firstblockoftext">
             <h1 class="welcomeheader anim">Welcome to CryptidFrame</h1>
@@ -47,15 +47,25 @@ $(function(){
             <div class="abouttext anim">We are a small indie game <br>development company that <br>focuses on creating immersive and entertaining games. <br>There is more information on <br>the <span class="aboutustext2" font style="font-style: italic;">About Us </span>page.</div>
             <a class="gamesheader anim2" href="pages/ourGames.html"><h1>Our Games</h1></a>
             <div class="games anim2">The only games that i are in the process of being made right now is <br><span style="font-style:italic";>The Backrooms: Silent Descent</span> and <span style="font-style:italic";>Abyssal Watchers </span>. Click the link in the nav or the header to see more about our game.</div>
-            <div class="newestnews anim2">What's New?</div>
-            <div class ="newstext anim2"><h6>This is the newest leak that can be found in the discord server below</h6></div>
-        </div>
-        <div class="imagecontainer">
-            <img class="stairs anim2" src="/images/gameimages/addedstairs.png" alt="Where my stairs?">
-        </div>
+            <div class="news-container">
+                <h1 class="newestnews anim2">Whats New?</h1>
+                <div class="whatsNewBox">
+                    <div class="news-image-container">
+                        <img class="news-image indexanim2" src="images/gameimages/staircase.png">
+                    </div>
+                    <div class="news-text anim2">
+                        <p>This is the newest leak of <span style="font-style:italic">The Backrooms: Silent Descent.</span>Go to the Our Games page or view it in the Discord server!</p>
+                    </div>
+                    <div class="past-news-box">
+                        <div class="past-news-leaks anim2">
+                            <p>Past News</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
-    <footer>
-        
-    </footer>
+    <div id="footer" class="footer-container">
+
+    </div>
 </body>
 </html>

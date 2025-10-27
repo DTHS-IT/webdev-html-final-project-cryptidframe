@@ -7,13 +7,17 @@
     <link rel="icon" type="x-icon" href="/images/favicon.ico">
     <title>CryptidFrame | Wesbite Contributors</title>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    
-
-<script>
-$(function(){
-  $("#nav-placeholder").load("nav.html");
-});
-</script>
+    <script>
+        $(function(){
+        $("#nav-bar").load("/universalHTML/navigation.html");
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function(){
+        $("#footer").load("/universalHTML/footer.html");
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -21,23 +25,20 @@ $(function(){
             <div class="logo-container">
                 <img class="logo" src="/images/cryptidframelogo.png">
             </div>
-        </div>
-        <div class="nav-container">
-            <div class="nav-bar">
-                <nav>
-                    <ul>
-                        <li><a class="nav-links" href="/index.html">Home</a></li>
-                        <li><a class="nav-links" href="aboutUs.html">About Us</a></li>
-                        <li><a class="nav-links" href="whatWeDo.html">What We Do</a></li>
-                        <li><a class="nav-links" href="ourGames.html" >Our Games</a></li>
-                        <li><a class="nav-links" href="websiteContributorrs.html">Website Contributors</a></li>
-                        <li><a class="nav-links" href="download.html">Download</a></li>
-                    </ul>
-                </nav>
+            <div class="company">
+                <img class="company-name" src="/images/cryptidframe.png">
             </div>
         </div>
-
     </header>
+    <div class="nav-container">
+        <img src="/images/nav_border1.png" class="nav-panel">
+        <button class="nav-panel-button">Navigation</button>
+        <div id="nav-bar" class="nav-bar">
+
+        </div>
+        <script src="/js/nav.js"></script>
+    <!--new-->
+    </div>
         <div class="websitecontributorstext">
             <div class="websitecontributorheader"><h1>Website Contributors</h1></div>
             <p class="websitecontributorstextunderhenader">The people who made this website possible are listed below. <br>Thank you to all of the people who helped make this website possible!</p>
@@ -56,5 +57,9 @@ $(function(){
         <div class="textunderimageswebsitecontributors">More sneaks for <span style="font-style:italic";>The Backrooms: Silent Descent</span>!</div>
         <img class="image1websitecontributors" src="/images/gameimages/darkroomidk.png" alt="Missing image">
         <img class="image2websitecontributors" src="/images/gameimages/longhallwaywithlight.png" alt="Missing image">
+    <div id="footer" class="footer-container">
+
+    </div>
+
 </body>
 </html>

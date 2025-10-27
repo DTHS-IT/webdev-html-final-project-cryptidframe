@@ -7,13 +7,17 @@
     <link rel="icon" type="x-icon" href="/images/favicon.ico">
     <title>CryptidFrame | What We Do</title>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    
-
-<script>
-$(function(){
-  $("#nav-placeholder").load("nav.html");
-});
-</script>
+    <script>
+        $(function(){
+        $("#nav-bar").load("/universalHTML/navigation.html");
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function(){
+        $("#footer").load("/universalHTML/footer.html");
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -21,24 +25,32 @@ $(function(){
             <div class="logo-container">
                 <img class="logo" src="/images/cryptidframelogo.png">
             </div>
-        </div>
-        <div class="nav-container">
-            <div class="nav-bar">
-                <nav>
-                    <ul>
-                        <li><a class="nav-links" href="/index.html">Home</a></li>
-                        <li><a class="nav-links" href="aboutUs.html">About Us</a></li>
-                        <li><a class="nav-links" href="whatWeDo.html">What We Do</a></li>
-                        <li><a class="nav-links" href="ourGames.html" >Our Games</a></li>
-                        <li><a class="nav-links" href="websiteContributors.html">Website Contributors</a></li>
-                        <li><a class="nav-links" href="download.html">Download</a></li>
-                    </ul>
-                </nav>
+            <div class="company">
+                <img class="company-name" src="/images/cryptidframe.png">
             </div>
         </div>
-        
     </header>
+    <div class="nav-container">
+        <img src="/images/nav_border1.png" class="nav-panel">
+        <button class="nav-panel-button">Navigation</button>
+        <div id="nav-bar" class="nav-bar">
+
+        </div>
+        <script src="/js/nav.js"></script>
+    <!--new-->
+    </div>
 <div class="whatwedotext">
+            <div class="whatwedoheader"><h1>What We Do</h1></div>
+            <p class="whatwedopagetext">At CryptidFrame, we specialize in developing unique and immersive indie games that captivate players and transport them to extraordinary worlds. Our team of talented developers, designers, and storytellers work collaboratively to create games that not only entertain but also inspire and engage our audience. We focus on innovative gameplay mechanics, compelling narratives, and stunning visuals to deliver memorable gaming experiences. From concept to completion, we are dedicated to pushing the boundaries of indie game development and bringing fresh ideas to the gaming community. Join us as we embark on exciting adventures and explore new frontiers in gaming using code that we learned to not make games but websites like this one.</p>
+            <div class="test1text"><h6>This is a very early version of <span style="font-style:italic";>The Backrooms: Silent Descent</span>.</h6></div>
+            <div class="earlydevelopmentheader"><h1>Early Development</h1></div>
+            <div class="earlydevelopmenttext">The images below are very early pictures of <span style="font-style:italic";>The Backrooms: Silent Descent</span>. <br>Please note if not already they will be changed and will not be the final product.</div>
+            <div class="image1earlydevelopmenttext"><h6>This is a basic map having only the walls with barley any <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;texture and okay lighting.</h6></div>
+            <div class="Arrow1">&rarr;</div>
+            <div class="image2earlydevelopmenttext"><h6>This is added texture and the change in lighting from the previous image</h6></div>
+            <div class="Arrow2">&rarr;</div>
+            <div class="image3earlydevelopmenttext"><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Than this is more lighter, cleaned and finalized.<br>(This can still be changed and may not be used for the final release)</h6></div>
+            <div class="textundercat"><h6>By the way no code were used in making <br><span style="font-style:italic";>The Backrooms: Silent Descent</span> </h6></div>
             <div class="whatwedoheader opac"><h1>What We Do</h1></div>
             <p class="whatwedopagetext opac">At CryptidFrame, we specialize in developing unique and immersive indie games that captivate players and transport them to extraordinary worlds. Our team of talented developers, designers, and storytellers work collaboratively to create games that not only entertain but also inspire and engage our audience. We focus on innovative gameplay mechanics, compelling narratives, and stunning visuals to deliver memorable gaming experiences. From concept to completion, we are dedicated to pushing the boundaries of indie game development and bringing fresh ideas to the gaming community. Join us as we embark on exciting adventures and explore new frontiers in gaming using code that we learned to not make games but websites like this one.</p>
             <div class="test1text anim"><h6>This is a very early version of <span style="font-style:italic";>The Backrooms: Silent Descent</span>.</h6></div>
@@ -51,10 +63,10 @@ $(function(){
             <div class="image3earlydevelopmenttext opac"><h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, the polished and cleaner version. Still subject to change.</h6></div>
             <div class="textundercat anim"><h6>Fun Fact: No code were used in making <br><span style="font-style:italic";>The Backrooms: Silent Descent</span>. </h6></div>
         </div>
-        <img class="basemap anim" src="/images/gameimages/test1.png" alt ="A basic map image of a backrooms level">
-        <img class="testmap2 opac" src="/images/gameimages/test2.png" alt="A more detailed map image of a backrooms level">
-        <img class="testmap3 opac" src="/images/gameimages/backroomsdark.png" alt="Missing photo right here">
-        <img class="testmap4 opac" src="/images/gameimages/backrooms.png" alt="A finalized map image of a backrooms level">
-        <img class="cat anim" src="/images/Gifs/cat.gif" alt="Cat" alt="Missing cat">
+        <img class="basemap" src="/images/gameimages/test1.png" alt ="A basic map image of a backrooms level">
+        <img class="testmap2" src="/images/gameimages/test2.png" alt="A more detailed map image of a backrooms level">
+        <img class="testmap3" src="/images/gameimages/backroomsdark.png" alt="Missing photo right here">
+        <img class="testmap4" src="/images/gameimages/backrooms.png" alt="A finalized map image of a backrooms level">
+        <img class="cat" src="/images/Gifs/cat.gif" alt="Cat" alt="Missing cat">
 </body>
 </html>
