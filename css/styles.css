@@ -3,7 +3,6 @@
     src: url("/static/Lora-Regular.ttf") format("truetype");
 }
 body {
-    position: relative;
     font-family: 'Lora Regular', serif;
     margin: 0;
     padding: 0;
@@ -38,7 +37,6 @@ body {
     text-align: right;
     font-weight: 200;
     color: white;
-    padding-bottom: 50px;
 }
 .nav-bar {
     display: flex;
@@ -572,11 +570,11 @@ a {
     box-shadow: 0 30px 30px rgba(11, 129, 0, 0.2);
     color: white;
     position:absolute;
-    top: 700px;
+    top:700px;
 }
 .footer-text {
     position: absolute;
-    bottom: 0;
+    top: 125px;
 }
 .company-name {
     height: 55px;
