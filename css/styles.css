@@ -446,10 +446,44 @@ a {
     height: auto;
     width: 300px;
     border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 .unrealphoto2{
+    height: 250px;
+    width: 320px;
+}
+.lightroom{
+    height: 250px;
+    width: 320px;
+}
+.keycard{
     height: 200px;
-    width: 350px;
+    width: 320px;
+}
+.doorphoto{
+    height: 300px;
+    width: 320px;
+}
+.ourgametext3{
+    position: absolute;
+    top: 1525px;
+    left: 65px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.ourgameheader2{
+    position: absolute;
+    top: 1140px;
+    left: 800px;
+    text-align: center;
+    font-weight: 600;
+}
+.ourgametext4{
+    position: absolute;
+    top: 1210px;
+    left: 800px;
+    line-height: 1.6;
+    margin-right: 12px;
 }
 
 .anim {
