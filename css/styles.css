@@ -452,7 +452,7 @@ a {
     width: 350px;
 }
 
-.indexanim {
+.anim {
     opacity: 0;
     transform: translateX(300px);
     animation: moveleft 1.5s ease-out;
@@ -466,7 +466,7 @@ a {
     }
 }
 
-.indexanim2 {
+.anim2 {
     opacity: 0;
     transform: translateX(-300px);
     animation: moveright 1.5s ease-out;
@@ -477,5 +477,17 @@ a {
     100%{
         opacity: 1;
         transform: translateX(0px);
+    }
+}
+
+.opac {
+    opacity: 0;
+    animation: fade 1.5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    100%{
+        opacity: 1;
     }
 }
