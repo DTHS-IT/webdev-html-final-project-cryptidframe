@@ -655,17 +655,18 @@ footer .nav-links {
     font-family: 'Lora Regular';
     position: absolute;
     cursor: pointer;
-    border: 4px solid linear-gradient(90deg, rgba(250, 162, 0, 0.664),rgb(109, 71, 0));
-    border-radius: 8px;
+    border: 4px solid orange;
+    border-radius: 6px;
     font-size: 17px;
     transform: rotate(270deg);
     left: 122px;
     top: 285px;
     padding: 1px 50px 1px 50px;
-    background-color: #111111;
+    background-color: #121212;
     color: rgb(133, 133, 133);
 
 }
+
 .nav-panel,
 #nav-bar,
 .nav-panel-button {
@@ -696,4 +697,18 @@ footer .nav-links {
 #main{
     overflow: auto;
     padding-bottom: 320px;
+}
+
+.tbsd-container {
+    display: flex;
+    position: absolute;
+
+}
+.download-content {
+    background: #111111;
+    border: 4px solid linear-gradient(90deg, rgba(250, 162, 0, 0.664),rgb(109, 71, 0));
+    border-radius: 8px;
+    width: 500px;
+    height: 200px;
+    z-index: -1;
 }
