@@ -547,7 +547,6 @@ a {
     align-items: flex-end;
     padding-block: 3.6rem;
     padding-inline: var(--container-padding);
-    pointer-events: none;
     position: relative;
     z-index: 10;
 }
@@ -617,6 +616,7 @@ footer {
 footer .nav-links {
     position: relative;
     margin-left: 12px;
+    z-index: 1000;
 }
 .footer-logo {
     height: 65px;
@@ -640,7 +640,7 @@ footer .nav-links {
     gap: 1.6rem;
     justify-content: center;
     padding: .8rem 1.6rem;
-    border: 2px solid rgb(78, 51, 0) ;
+    border: 2px solid rgb(78, 51, 0);
 }
 .news-container {
     display: flex;
