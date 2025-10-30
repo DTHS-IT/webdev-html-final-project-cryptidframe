@@ -2,6 +2,9 @@
     font-family: 'Lora Regular';
     src: url("/static/Lora-Regular.ttf") format("truetype");
 }
+ @media (min-width: 1025px) {
+    
+}
 body {
     font-family: 'Lora Regular', serif;
     margin: 0;
