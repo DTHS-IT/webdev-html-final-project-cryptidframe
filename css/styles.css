@@ -197,6 +197,22 @@ a {
     width: 500px;
     border: 2px solid rgb(255, 255, 255);
 }
+.staircaseimage{
+    position: absolute;
+    top: 190px;
+    left: 400px;
+    height: auto;
+    width: 500px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.staircasetext{
+    position: absolute;
+    text-align: center;
+    top: 455px;
+    left: 499px;
+    font-size: 16px;
+    font-weight: 200;
+}
 .explainbackrooms{
     position: absolute;
     top: 960px;
@@ -545,6 +561,31 @@ a {
         opacity: 1;
     }
 }
+
+.opac2 {
+    opacity: 0;
+    animation: fade 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.opac3 {
+    opacity: 0;
+    animation: fade 3s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    100%{
+        opacity: 1;
+    }
+}
+
 /*Everything New*/
 .footer-container {
     align-items: flex-end;
