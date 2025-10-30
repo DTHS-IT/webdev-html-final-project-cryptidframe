@@ -999,3 +999,6 @@ footer .nav-links {
 .tbsd-container, .abyssal-watchers-container {
     z-index: 50;
 }
+.contact-form {
+    position: absolute; 
+}
