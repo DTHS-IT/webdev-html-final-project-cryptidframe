@@ -545,6 +545,31 @@ a {
         opacity: 1;
     }
 }
+
+.opac2 {
+    opacity: 0;
+    animation: fade 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.opac3 {
+    opacity: 0;
+    animation: fade 3s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    100%{
+        opacity: 1;
+    }
+}
+
 /*Everything New*/
 .footer-container {
     align-items: flex-end;
