@@ -43,7 +43,7 @@ body {
     position: absolute;
     top: 25%;
     left: 12px;
-    z-index: 1000;
+    z-index: 100;
 }
 ul {
     list-style-type: none;
@@ -550,6 +550,7 @@ a {
     position: relative;
     z-index: 10;
 }
+
 .footer-content {
     display: flex;
     position: sticky;
@@ -706,8 +707,9 @@ footer .nav-links {
 .tbsd-container {
     display: flex;
     position: absolute;
-    top: 150px;
+    top: 220px;
     left: 250px;
+    z-index: 50;
 }
 .download-content {
     width: 850px;
@@ -840,4 +842,11 @@ footer .nav-links {
 }
 .close-button:active {
     transform: scale(0.98);
+}
+.download-title-page {
+    position: absolute;
+    font-family: 'Lora Regular';
+    top: 125px;
+    left: 120px;
+    color: white;
 }
