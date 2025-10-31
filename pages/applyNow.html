@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptidFrame</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" type="x-icon" href="/images/favicon.ico">
+    <!--git config pull .rebase false or git config pull.rebase false #merge if pusing errors occur-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function(){
+        $("#nav-bar").load("/universalHTML/navigation.html");
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function(){
+        $("#footer").load("/universalHTML/footer.html");
+        });
+    </script>
+    <script src="/js/form-validation.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-bar">
+            <div class="logo-container">
+                <img class="logo" src="/images/cryptidframelogo.png">
+            </div>
+            <div class="company">
+                <img class="company-name" src="/images/cryptidframe.png">
+            </div>
+            <div class="contact-section">
+                <a href="/pages/applyNow.html"><button class="contact-button">Contact Us</button></a>
+            </div>
+        </div>
+    </header>
+    <div class="nav-container">
+        <img src="/images/nav_border.png" class="nav-panel">
+        <button class="nav-panel-button">Navigation</button>
+        <div id="nav-bar" class="nav-bar">
+
+        </div>
+        <script src="/js/nav.js"></script>
+
+    <div class="contact-form-container">
+        <p class="contact-header">
+            <div class="company">
+                <img class="form-logo" src="/images/cryptidframe.png">
+            </div>   
+        </p>
+        <div class="contact-form">
+            <form class="form-content">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
+                </div>
+
+            </form>
+            <button type="submit" id="submit-button" class="submit-button">Submit Application</button>
+        </div>
+    </div>
+
+    <div id="footer" class="footer-container">
+
+    </div>
+</body>
+</html>
