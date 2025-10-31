@@ -120,7 +120,6 @@ a {
 .gamesheader:hover{
     color: rgb(235, 158, 17);
 }
-/*New*/
 .newestnews{
     position: absolute;
     top: 135px;
@@ -157,7 +156,6 @@ a {
     border-radius: 8px;
     padding: 4px;
 }
-/*End of Section*/
 .aboutustext{
     color: white;
     font-family: 'Lora Regular', serif;
@@ -586,7 +584,6 @@ a {
     }
 }
 
-/*Everything New*/
 .footer-container {
     align-items: flex-end;
     padding-block: 3.6rem;
@@ -722,7 +719,6 @@ footer .nav-links {
     transition: transform 0.35s ease;
 }
 
-/* Panel and nav are in default position when open */
 .nav-container.nav-open .nav-panel,
 .nav-container.nav-open #nav-bar {
     transform: translateX(0);
@@ -824,7 +820,6 @@ footer .nav-links {
 .download-button:active {
     transform: scale(0.98);
 }
-/*download-inner-content = modal, inner-content = modal-inner. Download button = openModal*/
 .download-innerContent {
     opacity: 0;
     position: fixed;
@@ -969,7 +964,6 @@ footer .nav-links {
 .download-buttonTwo:active {
     transform: scale(0.98);
 }
-/*download-inner-content = modal, inner-content = modal-inner. Download button = openModal*/
 .download-innerContentTwo {
     opacity: 0;
     position: fixed;
@@ -1077,8 +1071,9 @@ footer .nav-links {
     width: 900px;
     height: 750px;
     top: 150px;
-    left: 50%;
+    left: 40%;
     transform: translateX(-50%);
+    z-index: 100;
 }
 .contact-header {
     background: black;
@@ -1092,12 +1087,12 @@ footer .nav-links {
     left: 1px;
 }
 .form-logo {
-    width: 150px;
-    height: 50px;
+    width: 225px;
+    height: 65px;
     position: absolute;
     z-index: 100;
-    top: 15px;
-    left: 39%;
+    top: 18px;
+    left: 36%;
 }
 .form-content {
     position: absolute;
@@ -1116,31 +1111,48 @@ footer .nav-links {
     top: 100px;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1201;
 }
 input {
     padding: 8px;
     margin-top: 12px;
     border: 1px solid transparent;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 16px;
     background-image: linear-gradient(#121212, #121212), linear-gradient(90deg, rgba(250, 162, 0, 0.85), rgb(109, 71, 0));
     background-origin: border-box;
     background-clip: padding-box, border-box;
     color: white;
     width: 100%;
     box-sizing: border-box;
+    position: relative;
+    z-index: 1202;
 }
 label {
     margin-top: 12px;
     font-family: 'Lora Regular';
     font-weight: 600;
     font-size: 20px;
-
+}
+textarea {
+    padding: 8px;
+    margin-top: 12px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    background-image: linear-gradient(#121212, #121212), linear-gradient(90deg, rgba(250, 162, 0, 0.85), rgb(109, 71, 0));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+    min-height: 150px;
 }
 .submit-button {
     position: absolute;
     top: 85%;
-    left: 75px;
+    left: 15px;
     width: 750px;
     height: 50px;
     background-image: linear-gradient(#121212, #121212), linear-gradient(90deg, rgba(250, 162, 0, 0.85), rgb(109, 71, 0));
@@ -1163,4 +1175,21 @@ label {
 }  
 .submit-button:active {
     transform: scale(0.98);
+}
+.submittion-message {
+    position: absolute;
+    top: 50px;
+    left: 121%;
+    transform: translateX(-50%);
+    font-family: 'Lora Regular';
+    font-size: 18px;
+    color: orange;
+    background-image: linear-gradient(#121212, #121212), linear-gradient(90deg, rgba(250, 162, 0, 0.85), rgb(109, 71, 0));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border: 3px solid transparent; 
+    padding: 10px 15px 10px 15px;
+    border-radius: 8px;
+    width: 300px;
+    word-wrap: break-word;
 }
