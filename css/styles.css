@@ -576,16 +576,16 @@ a {
     animation-fill-mode: forwards;
 }
 
-.opac3 {
-    opacity: 0;
-    animation: fade 3s ease-in-out;
-    animation-fill-mode: forwards;
-}
-
 @keyframes fade {
     100%{
         opacity: 1;
     }
+}
+
+.opac3 {
+    opacity: 0;
+    animation: fade 3s ease-in;
+    animation-fill-mode: forwards;
 }
 
 @keyframes fade {
